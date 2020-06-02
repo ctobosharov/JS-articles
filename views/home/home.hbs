@@ -1,0 +1,82 @@
+{{> header}}
+
+<div class="content">
+    <section class="js">
+        <h2>JS</h2>
+        {{#each articles}}
+
+        <div class="articles">
+            <article>
+                <h3>{{title}}</h3>
+                <p>{{content}}</p>
+                <a href="#/article/details" class="btn details-btn">Details</a>
+
+            </article>
+            <article>
+                <h3>Objects</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, excepturi magnam aliquid
+                    quamest fugit ipsa quidem
+                    impedit praesentium tempore placeat numquam blanditiis fuga soluta beatae perspiciatis voluptas
+                    atque obcaecati?</p>
+                <a href="#" class="btn details-btn">Details</a>
+
+            </article>
+        </div>
+        {{else}}
+        <h1 align="center" style="color:white">No articles yet</h1>
+        {{/each}}
+
+    </section>
+    <section class="CSharp">
+        <h2>C#</h2>
+        {{#each articles}}
+        <div class="articles">
+            <article>
+                <h3>Dictionary</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, excepturi magnam aliquid
+                    quamest fugit ipsa quidem
+                    impedit praesentium tempore placeat numquam blanditiis fuga soluta beatae perspiciatis voluptas
+                    atque obcaecati?</p>
+                <a href="#" class="btn details-btn">Details</a>
+            </article>
+        </div>
+        {{else}}
+        <h1 align="center" style="color:white">No articles yet</h1>
+        {{/each}}
+    </section>
+    <section class="Java">
+        <h2>Java</h2>
+        {{#each articles}}
+        <div class="articles">
+            <article>
+                <h3>JDK</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, excepturi magnam aliquid
+                    quamest fugit ipsa quidem impedit praesentium tempore placeat numquam blanditiis fuga soluta
+                    beatae perspiciatis voluptas atque obcaecati?</p>
+                <a href="#" class="btn details-btn">Details</a>
+            </article>
+        </div>
+        {{else}}
+        <h1 align="center" style="color:white">No articles yet</h1>
+        {{/each}}
+    </section>
+    <section class="Pyton">
+        <h2>Pyton</h2>
+        {{#each articles}}
+        <div class="articles">
+            <article>
+                <h3>Gjango</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, excepturi magnam aliquid
+                    quamest fugit ipsa quidem
+                    impedit praesentium tempore placeat numquam blanditiis fuga soluta beatae perspiciatis voluptas
+                    atque obcaecati?</p>
+                <a href="#" class="btn details-btn">Details</a>
+            </article>
+        </div>
+        {{else}}
+        <h1 align="center" style="color:white">No articles yet</h1>
+        {{/each}}
+    </section>
+</div>
+
+{{> footer}}
